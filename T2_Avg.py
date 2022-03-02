@@ -1,0 +1,10 @@
+print("Please Enter Your Name:")
+name = input()
+first_lesson=input("enter name of first lesson: ")
+Score1=int(input("enter Score: "))
+second_lesson=input("enter name of second lesson: ")
+Score2=int(input("enter Score: "))
+third_lesson=input("enter name of third lesson: ")
+Score3=int(input("enter Score: "))
+average=(Score1+Score2+Score3)/3
+print("Hi ",name," :) Your Average is : ", average )
